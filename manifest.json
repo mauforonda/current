@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "Current",
+  "description": "",
+  "version": "0.1",
+  "homepage_url": "https://github.com/mauforonda/current",
+  "applications": {
+    "gecko": {
+      "id": "current@mauforonda",
+      "strict_min_version": "55.0a1"
+    }
+  },
+  "icons": {
+    "48": "icon.svg",
+    "96": "icon.svg"
+  },
+   "sidebar_action": {
+    "default_title": "Current",
+    "default_panel": "sidebar.html",
+    "default_icon": "icon.svg",
+    "browser_style": false
+   },
+  "commands": {
+    "_execute_sidebar_action": {
+      "suggested_key": {"default": "Ctrl+Shift+V"},
+      "description": "Toggle Current"
+    }
+  }
+}

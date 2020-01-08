@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'charter';
+    src: url('charter.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  font-family: charter;
+  font-size: 13px;
+  background-color: #f7f7f7;
+  color: #717475;
+  padding: 0px 5px;
+}
+
+.current {
+}
+
+.news {
+  border: #eee solid 1px;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px 0px;
+  box-shadow: 0 2px 2px rgba(0,0,0,.10);
+  background-color: #fff;
+}
+
+.news:hover {
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.33);
+  cursor: pointer;
+}
+
+.hed {
+  font-size: 1.4em;
+  color: #373737;
+  text-align: left;
+}
+
+.lede {
+  color: #7b7b7b;
+  padding: 10px 0px;
+}
+
+.timeplace {
+  padding-bottom: 28px;
+}
+
+.time {
+  float: right;
+}
+
+.place {
+  float: left;
+}
+
+.timeplace div{
+  background-color: #eee;
+  color: #8c8c8c;
+  padding: 5px;
+  border-radius: 5px;
+  text-transform: lowercase;
+  font-size: 0.9em;
+}
